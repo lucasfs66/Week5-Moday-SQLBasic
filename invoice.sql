@@ -9,7 +9,7 @@
 -- SELECT * FROM invoice WHERE total < 5;
 
 
--- SELECT * FROM invoice WHERE billing_state In('CA', 'TX', 'AZ');
+-- SELECT COUNT(*) FROM invoice WHERE billing_state In('CA', 'TX', 'AZ');
 
 -- SELECT AVG(total) FROM invoice;
 
